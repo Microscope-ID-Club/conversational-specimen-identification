@@ -11,13 +11,15 @@ This is a method and feasibility resource. It does not claim that AI can determi
 ## What this repository provides
 
 - `AGENTS.md` gives an AI coding companion detailed instructions for guiding specimen examination and identification.
-- `METHOD.md` explains the reasoning behind the method.
+- `METHOD.md` explains the reasoning behind the method and provides important context for how an observer should work with the AI companion.
 - `RECORD_FORMAT.md` defines a stable, portable Markdown record format.
 - `templates/specimen-record.md` is a neutral starting point for a specimen record.
 - `examples/example-specimen.md` demonstrates the format using fictional observations.
 - `records/` explains how records may be organised, but is not intended to hold project data in this public repository.
 
 The instructions between the marker comments in `AGENTS.md` are synchronised from a canonical copy maintained in `eco.records`. That package is currently private development software and is not presented as a CRAN-ready release. Access may be made available on request, but the package is not required to use this method or contribute suggestions. Repository-specific instructions follow the managed section.
+
+Observers should read `METHOD.md` before beginning a specimen examination. The essential operational principles are included in `AGENTS.md` for the AI companion, but `METHOD.md` explains the observer's role, the intended interaction, and the reasoning behind the process.
 
 ## Start a project from the template
 
