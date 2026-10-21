@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this resource, please cite the version you used."
+type: software
+title: "Conversational specimen identification"
+abstract: >-
+  Instructions, method notes, and a portable record format for using a
+  conversational AI system as a companion during observer-led biological
+  specimen examination and identification. Generative AI tools assisted the
+  development and revision of the resource. Paul J. Palmer directed and
+  reviewed the work and accepts responsibility for its contents.
+authors:
+  - family-names: "Palmer"
+    given-names: "Paul J."
+    email: "p.j.palmer@lboro.ac.uk"
+    orcid: "https://orcid.org/0000-0002-1674-3728"
+version: 0.1.0
+date-released: 2026-10-21
+license: CC-BY-4.0
+repository-code: "https://github.com/Microscope-ID-Club/conversational-specimen-identification"
+url: "https://github.com/Microscope-ID-Club/conversational-specimen-identification"
+keywords:
+  - artificial intelligence
+  - biodiversity
+  - biological recording
+  - identification
+  - natural history
+  - specimen examination

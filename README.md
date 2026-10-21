@@ -68,4 +68,8 @@ This general repository is deliberately separate from any site-based or organisa
 
 Except where otherwise stated, the repository materials are licensed under the Creative Commons Attribution 4.0 International licence (`CC BY 4.0`). See `LICENSE.md`.
 
+## AI use and responsibility
+
+Generative AI tools assisted the development and revision of these materials and are also the subject of the method described here. Paul J. Palmer directed the work, reviewed the repository contents, and accepts responsibility for them. AI tools are not authors or creators of this resource. No AI-generated observation, image, measurement, reference, or identification should be presented as empirical evidence.
+
 The method and record format remain under development. The `format_version` in each record allows the structure to evolve while supporting deliberate migration into other recording systems.
