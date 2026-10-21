@@ -1,5 +1,7 @@
 # Conversational specimen identification
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23531039.svg)](https://doi.org/10.5281/zenodo.23531039)
+
 This repository presents a conversational method for examining, describing, and identifying biological specimens with an AI companion. It is designed for naturalists and ecologists. No knowledge of R is required.
 
 The method does not treat identification as a race through a key. It begins with the intact specimen, gathers observations in convenient groups, organises them into a biological hierarchy, and only then tests identification hypotheses against keys and reference descriptions.
