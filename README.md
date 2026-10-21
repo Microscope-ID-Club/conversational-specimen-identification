@@ -19,9 +19,15 @@ This is a method and feasibility resource. It does not claim that AI can determi
 
 The instructions between the marker comments in `AGENTS.md` are synchronised from a canonical copy maintained in `eco.records`. That package is currently private development software and is not presented as a CRAN-ready release. Access may be made available on request, but the package is not required to use this method or contribute suggestions. Repository-specific instructions follow the managed section.
 
+## Start a project from the template
+
+For a new site-based, organisational, or personal trial, use the separate [specimen-identification project template](https://github.com/Microscope-ID-Club/specimen-identification-project-template). It provides project-scope and governance placeholders while keeping this DOI-bearing repository as the stable, citable source of the method.
+
+Repositories created from the template are independent copies and do not receive later changes automatically. Their project owners remain responsible for checking the source method, reviewing local instructions, and deciding access and reuse terms for specimen records and images.
+
 ## Recommended: use the repository
 
-1. Clone or download this repository, or copy its instructions and template into a repository created for your own project.
+1. Create a repository for your project with **Use this template** in the [specimen-identification project template](https://github.com/Microscope-ID-Club/specimen-identification-project-template). If that is not practical, clone or download the template repository, or copy its files into a project folder that you control.
 2. Create a folder for the specimen using a stable identifier, for example `SPECIMEN-001`.
 3. Copy `templates/specimen-record.md` into that folder and rename the copy `record.md`.
 4. Replace the example record identifier in both the metadata and title.
