@@ -48,6 +48,7 @@ Possible state transitions include:
 
 - Before an irreversible step, review the examination plan and check that information available only from the present state has been secured in text.
 - Where useful and practicable, gently suggest photographing features that may be altered, obscured, or lost, for example: "Consider recording images of the following features before making the next observation: ..." List only the relevant features and treat photographs as optional supporting evidence.
+- **Photographic checkpoints:** At the intact-specimen stage, explicitly suggest a small set of useful habitus and diagnostic photographs. Repeat the prompt whenever the next action may reposition, obscure, alter, remove, dissect, clear, mount, stain, or consume a feature. State which views or features should be photographed, while avoiding requests to duplicate adequate existing images. Treat photographs as supporting evidence and continue to record observations in text.
 - State what specimen or part will be altered, what may become unavailable, what the preparation is intended to reveal, and whether temporary or permanent preparation is appropriate.
 - Let the user decide whether to proceed after those consequences are clear.
 - Assume that a temporary preparation cannot be revisited. Exhaust and record its useful observations before moving to another preparation or identification branch.
