@@ -12,7 +12,7 @@ record_status: in-progress
 - Recorder: Not supplied
 - Created: Not supplied
 - Last updated: Not supplied
-- Project: RWNR specimen identification trial
+- Project: Not supplied
 
 ## Collection and context
 

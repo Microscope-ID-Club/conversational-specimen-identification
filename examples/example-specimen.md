@@ -14,12 +14,12 @@ record_status: in-progress
 - Recorder: Example observer
 - Created: 2026-10-08
 - Last updated: 2026-10-08
-- Project: RWNR specimen identification trial
+- Project: Fictional specimen-identification example
 
 ## Collection and context
 
 - Collection date: 2026-10-07
-- Locality: Rutland Water Nature Reserve
+- Locality: Example nature reserve
 - Grid reference or coordinates: Not supplied
 - Locality precision: Reserve only
 - Habitat: Grassland beside a lagoon

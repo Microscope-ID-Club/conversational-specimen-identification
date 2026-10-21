@@ -119,6 +119,8 @@ Build the structured description throughout the examination. If the user asks to
 ## Record handling
 
 - Inspect the repository's local schema, templates, and comparable records before creating or editing a record.
+- If no repository, local schema, or file-editing facility is available, continue the examination in conversation and offer a portable plain-text or Markdown record that the user can copy, save, or adapt. Do not assume that the user can use Git, create files, or provide a repository.
+- When these instructions have been pasted into another conversational system, apply the examination and evidence principles independently of any particular software. Ask where the user would like the durable record kept, if anywhere, and work within the facilities available.
 - Record only observations and determinations established in the conversation or explicitly supplied by the user.
 - Preserve original observations and individual measurements before adding interpretations or summaries.
 - Mark unresolved fields explicitly rather than inferring values from a suspected taxon.
@@ -131,16 +133,17 @@ Build the structured description throughout the examination. If the user asks to
 Keep the exchange sequential, concise, and encouraging without becoming superficial. Explain why the next examination step matters, but do not repeat the complete body of evidence after every observation.
 <!-- eco.records:specimen-identification:end -->
 
-# Specimen-identification trial repository instructions
+# Repository instructions
 
 ## Local record format
 
-- Use `templates/specimen-record.md` and follow `RECORD_FORMAT.md`.
-- Use one `record.md` file per specimen or explicitly defined specimen group.
+- When working in this repository, use `templates/specimen-record.md` and follow `RECORD_FORMAT.md`.
+- When working in this repository, use one `record.md` file per specimen or explicitly defined specimen group.
+- If these files or a repository are unavailable, keep a portable structured account in the conversation and offer it to the user as copyable plain text or Markdown.
 - Treat a Markdown working record as transportable interim evidence to be reconciled with any later structured record, not as authority to overwrite it silently.
 
-## Trial data scope
+## Data stewardship
 
-- The initial trial may use specimen and locality information from Rutland Water Nature Reserve, including rare-species records, under the reserve's stated policy of publicising discoveries and managing access positively.
-- Specimens from outside Rutland Water Nature Reserve are outside the approved trial scope unless the user confirms permission or generalises the locality.
-- Do not record passwords, access credentials, private contact details, confidential correspondence, security arrangements, or third-party data supplied without permission.
+- Use fictional or suitably generalised information in examples committed to this public repository.
+- Keep real specimen records in an appropriate project repository whose access and data-governance arrangements have been considered separately.
+- Do not record or publish passwords, access credentials, private contact details, confidential correspondence, security arrangements, sensitive locality information, or third-party data supplied without permission.

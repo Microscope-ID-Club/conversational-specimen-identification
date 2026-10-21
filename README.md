@@ -1,42 +1,53 @@
-# Specimen identification trial
+# Conversational specimen identification
 
-This private pilot tests a conversational method for examining, describing, and identifying biological specimens. It is designed for naturalists and ecologists. No knowledge of R is required.
+This repository presents a conversational method for examining, describing, and identifying biological specimens with an AI companion. It is designed for naturalists and ecologists. No knowledge of R is required.
 
 The method does not treat identification as a race through a key. It begins with the intact specimen, gathers observations in convenient groups, organises them into a biological hierarchy, and only then tests identification hypotheses against keys and reference descriptions.
 
-## Trial scope
+This is a method and feasibility resource. It does not claim that AI can determine specimens reliably from images, replace taxonomic expertise, or provide validation across taxa. Determinations still depend on observer-made examination, adequate evidence, suitable identification resources, and expert review where appropriate.
 
-The initial trial is limited to specimens from Rutland Water Nature Reserve (RWNR). RWNR specimen and locality information may be recorded under the reserve's policy of publicising discoveries and managing access positively.
+## What this repository provides
 
-Do not add:
-
-- specimens from outside RWNR unless permission is confirmed or the locality is generalised;
-- passwords, access credentials, private contact details, confidential correspondence, or security arrangements;
-- third-party records that you do not have permission to use.
-
-## Repository contents
-
-- `AGENTS.md` tells Codex how to guide the examination and identification.
+- `AGENTS.md` gives an AI coding companion detailed instructions for guiding specimen examination and identification.
 - `METHOD.md` explains the reasoning behind the method.
-- `RECORD_FORMAT.md` defines the stable Markdown format used by future importers.
-- `templates/specimen-record.md` is copied for each new specimen.
+- `RECORD_FORMAT.md` defines a stable, portable Markdown record format.
+- `templates/specimen-record.md` is a neutral starting point for a specimen record.
 - `examples/example-specimen.md` demonstrates the format using fictional observations.
-- `records/` contains one folder per trial specimen.
+- `records/` explains how records may be organised, but is not intended to hold project data in this public repository.
 
-## Start a specimen record
+The instructions between the marker comments in `AGENTS.md` are synchronised from a canonical copy maintained in `eco.records`. That package is currently private development software and is not presented as a CRAN-ready release. Access may be made available on request, but the package is not required to use this method or contribute suggestions. Repository-specific instructions follow the managed section.
 
-1. Create a folder under `records/` using a stable identifier, for example `BETH-2026-001`.
-2. Copy `templates/specimen-record.md` into that folder and rename the copy `record.md`.
-3. Replace the example record identifier in both the metadata and title.
-4. Add an `images/` subfolder if supporting photographs are available.
-5. Open this repository as the primary local project in Codex.
-6. Start a new chat and say: `Guide me through examining and identifying specimen BETH-2026-001 according to the project instructions.`
-7. Describe what you observe. Do not begin by asking for image matching or by treating a tentative name as established.
-8. Review the evolving `record.md` in RStudio. Correct anything that does not accurately represent the observation.
+## Recommended: use the repository
+
+1. Clone or download this repository, or copy its instructions and template into a repository created for your own project.
+2. Create a folder for the specimen using a stable identifier, for example `SPECIMEN-001`.
+3. Copy `templates/specimen-record.md` into that folder and rename the copy `record.md`.
+4. Replace the example record identifier in both the metadata and title.
+5. Add an `images/` subfolder if supporting photographs are available.
+6. Open this repository as the primary local project in Codex.
+7. Start a new chat and say: `Guide me through examining and identifying specimen SPECIMEN-001 according to the project instructions.`
+8. Describe what you observe. Do not begin by asking for image matching or by treating a tentative name as established.
+9. Review the evolving `record.md` in RStudio. Correct anything that does not accurately represent the observation.
+
+Before working with real records, decide separately where they should be stored, who may access them, and whether locality, personal, third-party, or other sensitive information needs to be withheld or generalised. This public repository should contain only fictional or suitably generalised examples.
+
+## Use the method without Git or a repository
+
+Git is recommended because it preserves revision history and makes the method, records, and proposed improvements easier to manage. It is not a requirement.
+
+If you cannot clone or manage a repository:
+
+1. Open `AGENTS.md` and copy its contents into the instructions or opening message of a conversational AI system that accepts user-supplied instructions.
+2. Explain that you want to examine a specimen using those instructions.
+3. Describe your observations in the conversation. The AI should guide the examination even when it cannot create or edit files.
+4. Ask the AI to maintain a portable Markdown record in the conversation, using `templates/specimen-record.md` if you can also supply that file.
+5. Periodically copy the record into a document or plain-text file that you control. Review it carefully and correct anything that does not accurately represent your observations.
+
+If you cannot supply the template, the instructions still apply. The AI can keep a simpler structured account in the conversation and provide a copyable summary. Availability and behaviour vary between AI systems, so retain your own copy rather than relying on the conversation as the only durable record.
 
 ## Editing in RStudio
 
-Open `specimen-identification-trial.Rproj`, then select a Markdown file from the Files pane. The files are ordinary text. The main Markdown conventions used here are:
+Open `conversational-specimen-identification.Rproj`, then select a Markdown file from the Files pane. The files are ordinary text. The main Markdown conventions used here are:
 
 - `#`, `##`, and `###` introduce headings;
 - `-` introduces a list item;
@@ -45,17 +56,16 @@ Open `specimen-identification-trial.Rproj`, then select a Markdown file from the
 
 No R code or package installation is required.
 
-## Git workflow for the pilot
+## Contributing
 
-Keep the first trial simple:
+Suggestions, corrections, and proposed improvements are welcome through GitHub issues and pull requests. See `CONTRIBUTING.md`, particularly before changing the managed section of `AGENTS.md`.
 
-1. Pull or synchronise before starting work.
-2. Review the changed files.
-3. Commit with a short message such as `Add initial observations for BETH-2026-001`.
-4. Push or synchronise the commit to the private GitHub repository.
+## Project trials
 
-Ask for help rather than resolving a Git conflict by deleting or overwriting a record.
+This general repository is deliberately separate from any site-based or organisational trial. A trial should use its own repository for participant instructions, permissions, governance, records, and images while retaining or synchronising the general method as appropriate.
 
-## Status
+## Licence
 
-This is a pilot format. The `format_version` in each record allows the structure to evolve while supporting import into other recording systems.
+Except where otherwise stated, the repository materials are licensed under the Creative Commons Attribution 4.0 International licence (`CC BY 4.0`). See `LICENSE.md`.
+
+The method and record format remain under development. The `format_version` in each record allows the structure to evolve while supporting deliberate migration into other recording systems.
